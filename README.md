@@ -1,4 +1,4 @@
-# cli-uniapp-template
+# uniapp-cli-template
 
 ## Project setup
 ```
