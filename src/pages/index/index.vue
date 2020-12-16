@@ -3,6 +3,7 @@
 		<image class="logo" src="/static/logo.png"></image>
 		<view>
 			<text class="title">{{title}}</text>
+			<text class="test">aaaa</text>
 		</view>
 	</view>
 </template>
@@ -23,7 +24,8 @@
 	}
 </script>
 
-<style>
+<style lang="scss">
+$color-a:red;
 	.content {
 		display: flex;
 		flex-direction: column;
@@ -45,5 +47,8 @@
 	.title {
 		font-size: 36rpx;
 		color: #8f8f94;
+	}
+	.test{
+		color:$color-a
 	}
 </style>
